@@ -2,9 +2,7 @@
 
 ## Learn Rust, a checklist
 
-Rust is an incredible powerful programming language. It is fast, compiled, without a runtime and it brings new concepts of safety to programming. <br>
-It is the most beloved language for five years in a row in Stack Overflow users pool. <br> 
-To learn Rust go through the following content **in the listed order**, the majority of the content is free. <br>
+An inspired by, but heavily edited down list:
 
 1. [ ] **Why Developers Love Rust** <br>
    [https://ibraheem.ca/posts/why-devs-love-rust/](https://ibraheem.ca/posts/why-devs-love-rust/)
@@ -32,12 +30,6 @@ To learn Rust go through the following content **in the listed order**, the majo
 8. [ ] **The Tour of Rust** <br>
    [https://tourofrust.com/](https://tourofrust.com/)
 
-9. [ ] A Rust experienced developer teaches a C++ experienced developer (Jason Turner) about Rust, from zero. <br>
-   **Jonathan Teaches Jason Rust - Part 1 - C++ Weekly** <br>
-   [https://www.youtube.com/watch?v=EzQ7YIIo1rY](https://www.youtube.com/watch?v=EzQ7YIIo1rY) <br>
-   **Jonathan Teaches Jason Rust - Part 2 - C++ Weekly** <br>
-   [https://www.youtube.com/watch?v=Y5-ZgxfQvpc](https://www.youtube.com/watch?v=Y5-ZgxfQvpc)
-
 10. [ ] **The Rust Programming Language Book** <br>
     by Steve Klabnik and Carol Nichols, with contributions from the Rust Community <br>
     [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
@@ -52,11 +44,6 @@ To learn Rust go through the following content **in the listed order**, the majo
 13. [ ] **Blessed - An unofficial guide to the Rust ecosystem** <br>
     [https://blessed.rs/crates](https://blessed.rs/crates)
 
-14. [ ] **Videos - Intro to Rustlang - Tensor Programming** <br>
-    [https://www.youtube.com/watch?v=EYqceb2AnkU&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW](https://www.youtube.com/watch?v=EYqceb2AnkU&list=PLJbE2Yu2zumDF6BX6_RdPisRVHgzV02NW)
-
-15. [ ] **Videos - Rustlang Project - Tensor Programming** <br>
-    [https://www.youtube.com/watch?v=-Jp7sabBCp4&list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb](https://www.youtube.com/watch?v=-Jp7sabBCp4&list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb)
 
 16. [ ] **Standard collections - std info and how to choose the correct collection** <br>
     [https://doc.rust-lang.org/std/collections/index.html](https://doc.rust-lang.org/std/collections/index.html)
@@ -123,64 +110,8 @@ To learn Rust go through the following content **in the listed order**, the majo
     github <br>
     [https://github.com/ndmitchell/interpret](https://github.com/ndmitchell/interpret)
 
-37. [ ] **Make A Language** <br>
-    A series about making a programming language called **Eldiro** using the Rust programming language. <br>
-    [https://arzg.github.io/lang/](https://arzg.github.io/lang/)
-
 38. [ ] **Engineering Rust Web Applications - Book** <br>
     [https://erwabook.com/](https://erwabook.com/)
-
-39. [ ] **Programming Rust: Fast, Safe Systems Development 2nd Ed** <br>
-    by Jim Blandy, Jason Orendorff
-
-40. [ ] **Rust for Rustaceans: Idiomatic Programming for Experienced Developers** <br>
-    by Jon Gjengset
-
-41. [ ] **Refactoring to Rust** <br>
-    by Lily Mara
-
-42. [ ] **Practical System Programming for Rust Developers** <br>
-    Build fast and secure software for Linux/Unix systems with the help of practical examples <br>
-    by Prabhu Eshwarla
-
-43. [ ] **Hands-On Concurrency with Rust**: Confidently build memory-safe, parallel, and efficient software in Rust <br>
-    by Brian L. Troutwine 
-
-44. [ ] **GDB: The GNU Project Debugger** <br>
-    [https://www.gnu.org/software/gdb/documentation/](https://www.gnu.org/software/gdb/documentation/)
-
-45. [ ] **The LLDB Debugger** <br>
-    [https://lldb.llvm.org/](https://lldb.llvm.org/)
-
-46. [ ] **Valgrind User Manual** <br>
-    [https://valgrind.org/docs/manual/manual.html](https://valgrind.org/docs/manual/manual.html)
-
-47. [ ] **The perf Linux profiler - Examples of use** <br>
-    [https://www.brendangregg.com/perf.html](https://www.brendangregg.com/perf.html)
-
-48. [ ] **QuickCheck - QuickCheck is a way to do property based testing using randomly generated input.** <br>
-    [https://github.com/BurntSushi/quickcheck](https://github.com/BurntSushi/quickcheck)
-
-49. [ ] **American Fuzzy Lop - A good fuzzer** <br>
-    [https://lcamtuf.coredump.cx/afl/](https://lcamtuf.coredump.cx/afl/)
-
-50. [ ] **Criterion rs - Statistics-driven Microbenchmarking in Rust** <br>
-    [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
-
-51. [ ] **The Complete Rust Programming Reference Guide**: Design, develop, and deploy effective software systems using the advanced constructs of Rust <br>
-	 by Rahul Sharma, Vesa Kaihlavirta 
-
-52. [ ] **Creative Projects for Rust Programmers**: Build exciting projects on domains such as web apps, WebAssembly, games, and parsing <br>
-    by Carlo Milanesi
-
-53. [ ] **Rust High Performance**: Learn to skyrocket the performance of your Rust applications <br>
-    by Iban Eguia Moraza 
-
-54. [ ] **Writing an OS in Rust Philipp Oppermann's blog** <br>
-    [https://os.phil-opp.com/](https://os.phil-opp.com/)
-
-55. [ ] **The Rust Unstable Book** <br>
-    [https://doc.rust-lang.org/beta/unstable-book/](https://doc.rust-lang.org/beta/unstable-book/)
 
 
 ## Text Processing in Rust
@@ -521,83 +452,15 @@ The inner workings and all the development steps of this project are beautifully
 
 ## Embedded Rust
 
-1. **An Overview of the Embedded Rust Ecosystem** - end 2020 <br>
+1. [ ] **An Overview of the Embedded Rust Ecosystem** - end 2020 <br>
    [https://www.youtube.com/watch?v=vLYit_HHPaY](https://www.youtube.com/watch?v=vLYit_HHPaY)
 
-2. **Awesome embedded rust - Github** <br>
+2. [ ] **Awesome embedded rust - Github** <br>
    Everything you need to know including drivers to connect external devices to the micro-controller. <br>
    [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
-
-3. **The Embedded Working Group Newsletter or Blog** <br>
-   [https://rust-embedded.github.io/blog/](https://rust-embedded.github.io/blog/)
-
-4. **Discovery Book** <br>
-   Good starting point for **MicroBit** and **STM32** <br>
-   [https://docs.rust-embedded.org/discovery/](https://docs.rust-embedded.org/discovery/)
-
-5. **PlayList - Embedded Rust course - JaJakub** - 2022 <br>
+   
+5. [ ] **PlayList - Embedded Rust course - JaJakub** - 2022 <br>
    [https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI](https://www.youtube.com/playlist?list=PLL2SCPK5xSRWBPj-nKOVYIhxRw7C4kYeI) 
-
-6. Live streams with a **good example of developing with Embedded Rust in STM32 BluePill** <br>
-   Embedded Rust - Vers Binarii <br>
-   [https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU)
-
-7. **Embedded Hardware Development with Rust** - 2018 <br>
-   [https://www.youtube.com/watch?v=g25xsK3HKkE](https://www.youtube.com/watch?v=g25xsK3HKkE)
-
-8. **Embedded Programming is Getting Rust-y** - end of 2021 <br>
-   Embedded Computing Design <br>
-   [https://www.youtube.com/watch?v=sOTx5324nKI](https://www.youtube.com/watch?v=sOTx5324nKI)
-
-9. **The Embedded Rust Book** <br>
-   **Second fantastic book to read** <br>
-   Generic for any type of chip brand. <br>
-   [https://docs.rust-embedded.org/book/](https://docs.rust-embedded.org/book/)
-
-10. **Workbook for Embedded Workshops - Book** <br>
-    Using the **Nordic nRF52840** Development Kit. <br>
-    [https://embedded-trainings.ferrous-systems.com/](https://embedded-trainings.ferrous-systems.com/)
-
-11. **The Embedonomicon Book** <br>
-    Deep dive into the inner workings. <br>
-    [https://docs.rust-embedded.org/embedonomicon/](https://docs.rust-embedded.org/embedonomicon/)
-
-12. **Video - How can we write the best device driver?** <br>
-    [https://www.youtube.com/watch?v=z9z74VpqO9A](https://www.youtube.com/watch?v=z9z74VpqO9A)
-
-13. **Video - RTIC - Real Time Interrupt driven Concurrency** <br>
-    RTIC is a RTOS - Real Time Operating System. <br>
-    [https://www.youtube.com/watch?v=saNdh0m_qHc](https://www.youtube.com/watch?v=saNdh0m_qHc)
-
-14. **RTIC Book** <br>
-    Real-Time Interrupt-driven Concurrency. <br>
-    **A very efficient preemptive multitasking framework** that supports **task prioritization** and **dead lock free execution**. <br>
-    [https://rtic.rs/1.0/book/en/](https://rtic.rs/1.0/book/en/)
-
-15. **Github - rtic-rs - cortex-m-rtic** <br>
-    [https://github.com/rtic-rs/cortex-m-rtic](https://github.com/rtic-rs/cortex-m-rtic)
-
-16. **Video - Grepit about the Rust RTIC framework** <br>
-    [https://www.youtube.com/watch?v=sSJ-Md8nwIM](https://www.youtube.com/watch?v=sSJ-Md8nwIM)
-
-17. Good **RTIC** project **example** <br>
-    **Rust firmware for IR thermometer in STM32 with LCD** - geomatsi - rust-ir-thermo <br>
-    [https://github.com/geomatsi/rust-ir-thermo](https://github.com/geomatsi/rust-ir-thermo)
-
-18. **Video - Bare Metal Audio Programming With Rust - Antoine van Gelder - ADC20** <br>
-    [https://www.youtube.com/watch?v=udlK1LQ3f3g](https://www.youtube.com/watch?v=udlK1LQ3f3g) <br>
-    **Slides** <br>
-    [https://flowdsp.io/talks/talk-adc20/#1](https://flowdsp.io/talks/talk-adc20/#1)
-
-19. **Video - Building a simple logic analyser in Rust** <br>
-    Rust Linz, September 2020 - Roland Ruckerbauer - Embedded Rust <br>
-    Board used **stm32** compatible **bluepill**. <br>
-    [https://www.youtube.com/watch?v=xY342ACNXFg](https://www.youtube.com/watch?v=xY342ACNXFg) <br>
-    **Slides** <br>
-    [https://github.com/ruabmbua/rlogic/blob/master/presentation.pdf](https://github.com/ruabmbua/rlogic/blob/master/presentation.pdf) <br>
-    **Github - ruabmbua - rlogic** <br>
-    [https://github.com/ruabmbua/rlogic](https://github.com/ruabmbua/rlogic)
-
 
 ## Embedded Rust crates and code size optimization
 
@@ -650,200 +513,6 @@ codegen-units = 1
 debug = true
 opt-level = "z"
 ```
-
-
-## Embedded Rust with STM32 BluePill - STM32F103
-
-1. STM32 BluePill in Rust - **Project template and lot's of info** <br>
-   This is the project template I use in my BluePill projects. <br>
-   [https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template](https://github.com/joaocarvalhoopen/stm32_bluepill_in_rust__Template)
-
-
-## Embedded Rust with Raspberry Pi Pico - 4 dollars board
-
-1. **All relevant Info and a starting project Template.** <br> 
-   Where I have put all the info that I consider to be relevant for Pico development in Rust. <br>
-   **Raspberry Pi Pico in Rust Proj Template with RTIC USB-Serial and UF2** <br>
-   [https://github.com/joaocarvalhoopen/Raspberry_Pi_Pico_in_Rust__Proj_Template_with_RTIC_USB-Serial_UF2](https://github.com/joaocarvalhoopen/Raspberry_Pi_Pico_in_Rust__Proj_Template_with_RTIC_USB-Serial_UF2)
-
-2. Raspberry Pi **Pico** - **rp-HAL** <br>
-   [https://github.com/rp-rs/rp-hal](https://github.com/rp-rs/rp-hal) <br>
-   **rp2040-hal** - **Examples** <br>
-   [https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples](https://github.com/rp-rs/rp-hal/tree/main/rp2040-hal/examples) <br>
-   **Examples** for the **board rp-pico**. <br>
-   [https://github.com/rp-rs/rp-hal/tree/main/boards/rp-pico](https://github.com/rp-rs/rp-hal/tree/main/boards/rp-pico) <br>
-   **Documentation** <br>
-   [https://docs.rs/rp2040-hal/latest/rp2040_hal/](https://docs.rs/rp2040-hal/latest/rp2040_hal/)
-
-3. **Site - rp2040 - Chip documentation** <br>
-   [https://www.raspberrypi.com/documentation/microcontrollers/](https://www.raspberrypi.com/documentation/microcontrollers/)
-
-4. Getting Started with **Rust on a Raspberry Pi Pico - Part 1** <br>
-   [https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry)
-
-5. Getting Started with **Rust on a Raspberry Pi Pico - Part 2** <br>
-   [https://reltech.substack.com/p/getting-started-with-raspberry-pi](https://reltech.substack.com/p/getting-started-with-raspberry-pi)
-
-6. Getting Started with **Rust on a Raspberry Pi Pico - Part 3** <br>
-   [https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88](https://reltech.substack.com/p/getting-started-with-rust-on-a-raspberry-a88)
-
-7. **Oleg Eterevsky comment on the previous page** - Slightly simpler setup. Instead of using a separate controller for handling the debug, he have just set up **debug logging via USB serial port**. This requires a bit more boilerplate (handling the USB interrupt and such), but is much simpler from the hardware perspective: you need to just plug in a single Pico board in your USB, flash it and you can immediately see the debug output. <br>
-   **USB_Serial - repo** <br>
-   [https://github.com/eterevsky/rp2040-blink](https://github.com/eterevsky/rp2040-blink)
-
-8. **Crate usb-device** - Experimental device-side USB stack for embedded devices. <br>
-   [https://crates.io/crates/usb-device](https://crates.io/crates/usb-device)
-
-9. **Way to easily Reboot the Pico to USB-PEN mode to program it** <br>
-   You can have a easy reboot without needing to disconnecting and while pressing the boot button reconnecting the cable. <br> 
-   Just add a switch from pin RUN to GND and while pressing the Boot Button press the Run Button and release the Run switch and them the Boot Button. It will enter the USB-PEN mode, that allows you to program by just coping the Rust or C binary from the PC to the Raspberry Pico micro-controller. <br>
-   See official documentation for details.
-
-10. PlayList - **Rust Pico - Low Level Learning** <br>
-    [https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
-
-11. Play List - **Raspberry Pi Pico in C - Low Level Learning** <br>
-    [https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt](https://www.youtube.com/playlist?list=PLc7W4b0WHTAV6EYRVayb9c9dEsq-NeXAt)
-
-12. **PlayList - Intro to Raspberry Pi Pico and RP2040** - Digi-Key <br>
-    **C/C++** and **MicroPython** <br>
-    [https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
-
-13. **In-depth: Raspberry Pi Pico's PIO - programmable IO** - stacksmashing <br>
-    [https://www.youtube.com/watch?v=yYnQYF_Xa8g](https://www.youtube.com/watch?v=yYnQYF_Xa8g) 
-
-14. **Site - Raspberry Pi Pico** <br>
-    [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
-
-15. **Site - Getting started with Raspberry Pi Pico** <br>
-    [https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0)
-
-16. **Book - Get Started with MicroPython on Raspberry Pi Pico** <br>
-    [https://hackspace.raspberrypi.com/books/micropython-pico](https://hackspace.raspberrypi.com/books/micropython-pico)
-
-17. **Book - Adafruit - Getting Started with Raspberry Pi Pico and CircuitPython** <br>
-    [https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf)
-
-18. **Video - The Raspberry Pi Pico Review - $4 ARM Microcontroller** <br>
-    [https://www.youtube.com/watch?v=dUCgYXF01Do](https://www.youtube.com/watch?v=dUCgYXF01Do)
-
-19. **Video - Raspberry Pi Pico VGA video output using only resistors** <br>
-    [https://www.youtube.com/watch?v=RmPWcsvGSyk](https://www.youtube.com/watch?v=RmPWcsvGSyk)
-
-
-## Embedded Rust with ESP32
-
-1. **esp-rs - Rust on ESP-IDF "Hello, World" template** <br>
-   [https://github.com/esp-rs/esp-idf-template](https://github.com/esp-rs/esp-idf-template)
-
-2. **Video - Embedded Rust: Wifi and I2C on a ESP32-C3 - Andrei Litvin** <br>
-   [https://www.youtube.com/watch?v=CXm7NdBBegk](https://www.youtube.com/watch?v=CXm7NdBBegk) <br>
-   **GitHub andy31415 - rust-esp32-c3-demos** <br>
-   [https://github.com/andy31415/rust-esp32-c3-demos/tree/oled_wifi](https://github.com/andy31415/rust-esp32-c3-demos/tree/oled_wifi)
-
-3. **ivmarkov - rust-esp32-std-demo** <br>
-   A complex demo of ESP32 in Rust <br>
-   [https://github.com/ivmarkov/rust-esp32-std-demo](https://github.com/ivmarkov/rust-esp32-std-demo)
-
-
-## Links
-
-1. **Rust site** <br>
-   A language empowering everyone to build reliable and efficient software. <br>
-   [https://www.rust-lang.org/](https://www.rust-lang.org/)
-
-2. **Song - Rust 2021 Edition** <br>
-   [https://www.youtube.com/watch?v=q0aNduqb2Ro](https://www.youtube.com/watch?v=q0aNduqb2Ro)
-
-3. **Crate.io - The Rust community’s crate registry** <br>
-  [https://crates.io/](https://crates.io/)
-
-4. **Rust weekly news letter** <br>
-   [https://this-week-in-rust.org/](https://this-week-in-rust.org/)
-
-5. **The Little Book of Rust Books** <br>
-   [https://lborb.github.io/book/title-page.html](https://lborb.github.io/book/title-page.html)
-
-6. **Awesome-rust** <br>
-   [https://github.com/rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
-
-7. **Awesome-embedded-rust** <br>
-   [https://github.com/rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
-
-8. **Rust Analyzer - User manual and short cut keys** <br>
-   [https://rust-analyzer.github.io/manual.html](https://rust-analyzer.github.io/manual.html)
-
-9. **Jon Gjengset - Rust in depth Youtube channel.** <br> 
-   [https://www.youtube.com/c/JonGjengset](https://www.youtube.com/c/JonGjengset)
-
-10. **Tokio** <br>
-    Tokio is an asynchronous runtime (**async** and **await**) for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices. <br>
-    See the tutorials. <br>
-    [https://tokio.rs/](https://tokio.rs/)
-
-11. Best **async** and **await** introduction video. <br>
-   **Video - Crust of Rust: async e await - Jon Gjengset** <br>
-   [https://www.youtube.com/watch?v=ThjvMReOXYM](https://www.youtube.com/watch?v=ThjvMReOXYM)
-
-12. **Video - Creating a Chat Server with async Rust and Tokio – Lily Mara** <br>
-    [https://www.youtube.com/watch?v=Iapc-qGTEBQ](https://www.youtube.com/watch?v=Iapc-qGTEBQ)
-
-13. **Tracing - Log tracing platform** <br>
-    [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
-
-14. **Actix Web** <br>
-    Web Framework that's blazing fast, secure, asynchronous runs over Tokio and is "similar" to **Flask** of Python. <br>
-    Can process **650.000 request per second**. <br>
-    [https://actix.rs/](https://actix.rs/)
-
-15. **Rocket** <br>
-    Web Framework that's fast, secure and more "similar" to **Django** of Python. <br>
-    [https://rocket.rs/](https://rocket.rs/)
-
-16. **Serde** <br>
-    Serde is a framework for **serializing** and **deserializing** Rust data structures efficiently and generically. <br>
-    [https://serde.rs/](https://serde.rs/) <br>
-    [https://crates.io/crates/serde](https://crates.io/crates/serde)
-
-17. **BindGen** <br>
-    Automatically generates Rust FFI bindings to C and C++ libraries. <br>
-    [https://crates.io/crates/bindgen](https://crates.io/crates/bindgen) <br>
-    Tutorial guide. <br>
-    [https://rust-lang.github.io/rust-bindgen/](https://rust-lang.github.io/rust-bindgen/)
-
-18. **Hacking rustc: Contributing to the Compiler by Esteban Kuber** - RustConf 2021 <br>
-    [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
-
-
-## Rust Foundation
-
-1. Video - **What Is Rust Foundation?** <br>
-   [https://www.youtube.com/watch?v=AI4lPN0BqGc](https://www.youtube.com/watch?v=AI4lPN0BqGc)
-
-2. **Site - Rust Foundation** <br>
-   [https://foundation.rust-lang.org/](https://foundation.rust-lang.org/)
-
-
-## Rust Blogs
-
-1. **pretzelhammer's Rust blog** <br>
-   [https://github.com/pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog)
-
-   1. **RESTful API in Sync & Async Rust - pretzelhammer** <br> 
-      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/restful-api-in-sync-and-async-rust.md)
-
-   2. **Common Rust Lifetime Misconceptions - pretzelhammer** <br>
-      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md)
-
-   3. **Tour of Rust's Standard Library Traits - pretzelhammer** <br>
-      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
-
-   4. **Sizedness in Rust – pretzelhammer** <br>
-      [https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md](https://github.com/pretzelhammer/rust-blog/blob/master/posts/sizedness-in-rust.md)
-
-2. **fasterThanLime Blog** - Amos Wenger <br>
-   [https://fasterthanli.me](https://fasterthanli.me)
-
 
 ## Rust Youtube Channels
 
