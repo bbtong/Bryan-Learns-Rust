@@ -1,62 +1,6 @@
-# How to learn modern Rust
-A guide to the adventurer.
+# Bryan Learns Rust
 
-Table of Contents
-=================
-
-- [How to learn modern Rust](#how-to-learn-modern-rust)
-- [Table of Contents](#table-of-contents)
-  - [Learn Rust deeply one step after the other](#learn-rust-deeply-one-step-after-the-other)
-  - [Text Processing in Rust](#text-processing-in-rust)
-  - [How Rust maps to memory and lifetimes annotations in Rust](#how-rust-maps-to-memory-and-lifetimes-annotations-in-rust)
-  - [How to deal with Circular References and Ownership](#how-to-deal-with-circular-references-and-ownership)
-  - [Polymorphism in Rust](#polymorphism-in-rust)
-  - [Rust Testing and TDD - Test Driven Development](#rust-testing-and-tdd---test-driven-development)
-  - [Systems programming in Rust](#systems-programming-in-rust)
-  - [Background in systems programming](#background-in-systems-programming)
-  - [Writing Compilers in Rust](#writing-compilers-in-rust)
-  - [Contributing to the Rust Compiler rustc](#contributing-to-the-rust-compiler-rustc)
-  - [WebAssembly in Rust - WASM](#webassembly-in-rust---wasm)
-  - [WebFrameworks in Rust - Similar to React Angular or Vue](#webframeworks-in-rust---similar-to-react-angular-or-vue)
-  - [SQL Databases in Rust](#sql-databases-in-rust)
-  - [Rapid Prototyping in Rust - Write fast like Python - Run fast like C](#rapid-prototyping-in-rust---write-fast-like-python---run-fast-like-c)
-  - [Python extended with Rust and running a Python interpreter inside Rust](#python-extended-with-rust-and-running-a-python-interpreter-inside-rust)
-  - [Rust with inline Python](#rust-with-inline-python)
-  - [Rust on or for the Raspberry Pi](#rust-on-or-for-the-raspberry-pi)
-    - [Developing on the Raspberry Pi and running Rust programs on the Raspberry Pi](#developing-on-the-raspberry-pi-and-running-rust-programs-on-the-raspberry-pi)
-    - [Developing on the PC and cross-compiling to run Rust programs on the Raspberry Pi](#developing-on-the-pc-and-cross-compiling-to-run-rust-programs-on-the-raspberry-pi)
-  - [Embedded Rust](#embedded-rust)
-  - [Embedded Rust crates and code size optimization](#embedded-rust-crates-and-code-size-optimization)
-  - [Embedded Rust with STM32 BluePill - STM32F103](#embedded-rust-with-stm32-bluepill---stm32f103)
-  - [Embedded Rust with Raspberry Pi Pico - 4 dollars board](#embedded-rust-with-raspberry-pi-pico---4-dollars-board)
-  - [Embedded Rust with ESP32](#embedded-rust-with-esp32)
-  - [Links](#links)
-  - [Rust Foundation](#rust-foundation)
-  - [Rust Blogs](#rust-blogs)
-  - [Rust Youtube Channels](#rust-youtube-channels)
-  - [GUI programming in Rust](#gui-programming-in-rust)
-  - [Audio in Rust](#audio-in-rust)
-  - [Faster Compilation - Linker times in Linux and Unix ELF](#faster-compilation---linker-times-in-linux-and-unix-elf)
-  - [Machine Learning for Rust](#machine-learning-for-rust)
-  - [Rust VSCode plugins](#rust-vscode-plugins)
-  - [Rust Debugger](#rust-debugger)
-  - [Rust Error Handling](#rust-error-handling)
-  - [Tips and Tricks](#tips-and-tricks)
-  - [GC for Rust - Garbage Collector](#gc-for-rust---garbage-collector)
-  - [Programming Parallel computers - Optimization guide C Plus Plus and Rust](#programming-parallel-computers---optimization-guide-c-plus-plus-and-rust)
-  - [Rust Optimization - Compilation modes and flags](#rust-optimization---compilation-modes-and-flags)
-  - [Rust bounds check removal](#rust-bounds-check-removal)
-  - [Notes - General](#notes---general)
-  - [Notes on optimization](#notes-on-optimization)
-  - [Rust substring processing](#rust-substring-processing)
-  - [Macros in Rust](#macros-in-rust)
-  - [Good way to learn about the topic of computers and programming](#good-way-to-learn-about-the-topic-of-computers-and-programming)
-  - [For a good challenge do the NAND To Tetris in Rust](#for-a-good-challenge-do-the-nand-to-tetris-in-rust)
-- [All my other guides](#all-my-other-guides)
-- [Have fun](#have-fun)
-
-
-## Learn Rust deeply one step after the other
+## Learn Rust, a checklist
 
 Rust is an incredible powerful programming language. It is fast, compiled, without a runtime and it brings new concepts of safety to programming. <br>
 It is the most beloved language for five years in a row in Stack Overflow users pool. <br> 
@@ -376,56 +320,31 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    By Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, Derek Dreyer <br>
    [https://cacm.acm.org/magazines/2021/4/251364-safe-systems-programming-in-rust/fulltext](https://cacm.acm.org/magazines/2021/4/251364-safe-systems-programming-in-rust/fulltext)
 
-3. **The Linux Command Line, 2nd Edition: A Complete Introduction Illustrated Edition** <br>
+3. [ ] **The Linux Command Line, 2nd Edition: A Complete Introduction Illustrated Edition** <br>
    by William Shotts
 
-4. **How Linux Works, 3rd Edition: What Every Superuser Should Know 3rd Edition** <br>
+4. [ ] **How Linux Works, 3rd Edition: What Every Superuser Should Know 3rd Edition** <br>
    by Brian Ward
 
-5. **Dive Into Systems: A Gentle Introduction to Computer Systems** <br>
+5. [ ] **Dive Into Systems: A Gentle Introduction to Computer Systems** <br>
    by Suzanne J. Matthews , Tia Newhall, et al. <br>
    [https://diveintosystems.org/singlepage/](https://diveintosystems.org/singlepage/)
 
-6. **Operating Systems: Three Easy Pieces** <br>
+6. [ ] **Operating Systems: Three Easy Pieces** <br>
    Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau <br>
    [http://pages.cs.wisc.edu/~remzi/OSTEP/](http://pages.cs.wisc.edu/~remzi/OSTEP/)  
 
-7. **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
+7. [x] **The Linux Programming Interface: A Linux and UNIX System Programming Handbook** <br>
    by Michael Kerrisk <br>
    **Note:** Read this book from cover to cover!
 
-8. **System Programming Vol I and Vol II** <br>
+8. [ ] **System Programming Vol I and Vol II** <br>
    by Jin-Jwei Chen <br>
    **Note:** Read this book from cover to cover!
 
-9. **Linux Device Drivers, 3th Edition** <br>
-   [https://lwn.net/Kernel/LDD3/](https://lwn.net/Kernel/LDD3/)
-
-10. **Linux Driver Development for Embedded Processors - 2th Edition**: Learn to develop Linux embedded drivers with kernel 4.9 LTS <br>
-    by Alberto Liberal de los Ríos
-
-11. **Computer Systems: A Programmer's Perspective 3rd Edition** <br>
-    by Randal Bryant, David O'Hallaron
-
-12. **Computer Networking: A Top-Down Approach** <br> 
-    by James Kurose
-
-13. **The Illustrated Network: How TCP/IP Works in a Modern Network 2nd Edition** <br>
-    by Walter Goralski
-
-14. **C Programming: A Modern Approach, 2nd Edition** <br>
-    by K. N. King
-
-15. **Extreme C: Taking you to the limit in Concurrency, OOP, and the most advanced capabilities of C** <br>
-    by Kamran Amini
-
-16. **C++ Crash Course: A Fast-Paced Introduction** <br>
-    by Josh Lospinoso
-
-
 ## Writing Compilers in Rust
 
-1. **Crafting Interpreters** <br>
+1. [ ] **Crafting Interpreters** <br>
    by Robert Nystrom <br>
    The book license is Creative Commons. <br>
    [https://craftinginterpreters.com/](https://craftinginterpreters.com/) <br>
@@ -436,125 +355,86 @@ The previous link **demonstrated 3 ways to attack the problem**: <br>
    **Crafting A Lox Interpreter In Rust, Part 1 - Diego Freijo** <br>
    [https://www.diegofreijo.com/blog/rlox-vm-a-lox-interpreter-in-rust-part-1/](https://www.diegofreijo.com/blog/rlox-vm-a-lox-interpreter-in-rust-part-1/)
 
-2. **Video Play List - Crafting Interpreters - Uncle Scientist** <br>
+2. [ ] **Video Play List - Crafting Interpreters - Uncle Scientist** <br>
    [https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN](https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN) 
 
-3. **LISP interpreter in Rust** <br>
+3. [ ] **LISP interpreter in Rust** <br>
    [https://vishpat.github.io/lisp-rs/](https://vishpat.github.io/lisp-rs/)
 
-4.  **Writing An Interpreter In Go** <br> 
+4. [ ] **Writing An Interpreter In Go** <br> 
     by Thorsten Ball
 
-5.  **Writing A Compiler In Go** <br>
+5. [ ] **Writing A Compiler In Go** <br>
     by Thorsten Ball
 
-6. **Compilers: Principles, Techniques, and Tools** <br>
+6. [ ] **Compilers: Principles, Techniques, and Tools** <br>
    by Alfred Aho, Monica Lam, Ravi Sethi
 
 
 ## Contributing to the Rust Compiler rustc
 
-1. **Video - RustConf 2021 - Hacking rustc: Contributing to the Compiler by Esteban Kuber** <br>
+1. [ ] **Video - RustConf 2021 - Hacking rustc: Contributing to the Compiler by Esteban Kuber** <br>
    [https://www.youtube.com/watch?v=9H9SO2u6Q20](https://www.youtube.com/watch?v=9H9SO2u6Q20)
 
-2. **Video - rustc - A talk by Mark Mansi about the Rust programming language and compiler** <br>
+2. [ ] **Video - rustc - A talk by Mark Mansi about the Rust programming language and compiler** <br>
    [https://www.youtube.com/watch?v=68U8ZZ1EnEQ](https://www.youtube.com/watch?v=68U8ZZ1EnEQ)
-
-3. **Video - Hacking on rustc - Negative literals in indexing expressions** <br>
-   [https://www.youtube.com/watch?v=OGihuce8rl8](https://www.youtube.com/watch?v=OGihuce8rl8) 
-
-4. **Rust Lang - Compiler Team** <br>
-   [https://rust-lang.github.io/compiler-team/](https://rust-lang.github.io/compiler-team/)
-
-5. **The Rust Compiler - rustc** <br>
-   [https://github.com/rust-lang/rust](https://github.com/rust-lang/rust)
-
-6. **rustc API docs - rustdoc documentation for the compiler** <br>
-   [https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_middle/)
-
-7. **Zulip Chat - rust-lang** <br>
-   [https://rust-lang.zulipchat.com/](https://rust-lang.zulipchat.com/)
-
-8. **Forum Rust Internals** <br> 
-   [https://internals.rust-lang.org/](https://internals.rust-lang.org/)
-
-9. **Guide to Rustc Development - Book** <br>
-   [https://rustc-dev-guide.rust-lang.org/](https://rustc-dev-guide.rust-lang.org/)
-
-10. **Video Play List - rustc lecture series** <br>
-    [https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN](https://www.youtube.com/playlist?list=PL85XCvVPmGQhOL-J2Ng7qlPvDVOwYpGTN)
 
 
 ## WebAssembly in Rust - WASM
 
-1. **Rust and WebAssembly - Book** <br>
+1. [ ] **Rust and WebAssembly - Book** <br>
    [https://rustwasm.github.io/docs/book/](https://rustwasm.github.io/docs/book/)
 
-2. **Write Your First WASM Module using Rust** <br>
+2. [ ] **Write Your First WASM Module using Rust** <br>
    [https://www.youtube.com/watch?v=nW71Mlbmxt8](https://www.youtube.com/watch?v=nW71Mlbmxt8)
 
-3. **Getting Started with WebAssembly and Rust: A First Look** <br>
+3. [ ] **Getting Started with WebAssembly and Rust: A First Look** <br>
    [https://www.youtube.com/watch?v=YHJjmsw_Sx0](https://www.youtube.com/watch?v=YHJjmsw_Sx0)
-
-4. **Crate wasm-bindgen** <br>
-   Facilitating high-level interactions between Wasm modules and JavaScript. <br>
-   GitHub <br> 
-   [https://github.com/rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) <br>
-   **The wasm-bindgen guide** - Book <br>
-   [https://rustwasm.github.io/docs/wasm-bindgen/](https://rustwasm.github.io/docs/wasm-bindgen/)
-
-5. **Project WASM Fourier** <br>
-   Example of **browser audio microphone data** passed to Rust WASM module. <br>
-   Note: **Really cool example** to study and for example do APP's with audio processing on Rust. <br>
-   [https://github.com/linanova/wasm-fourier](https://github.com/linanova/wasm-fourier)
-
-6. **Video - Rust + Yew + WASM + Canvas - Vers Binarii** <br>
-   [https://www.youtube.com/watch?v=7Smco8araSo](https://www.youtube.com/watch?v=7Smco8araSo)
 
 
 ## WebFrameworks in Rust - Similar to React Angular or Vue
 
-* **Crate Yew.rs - A framework similar to React, Angular or Vue,** <br>
+* [ ] **Crate Yew.rs - A framework similar to React, Angular or Vue,** <br>
   **but without Javascript, the development is all made in Rust.** <br>
   [https://yew.rs/](https://yew.rs/)
 
-* **Video Playlist - Introduction to Yew.rs Course - Brooks Builds** <br>
+* [ ] **Video Playlist - Introduction to Yew.rs Course - Brooks Builds** <br>
   [https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL](https://www.youtube.com/playlist?list=PLrmY5pVcnuE_R5qJ0o30eGw77bWmnrUtL)
 
 
 ## SQL Databases in Rust
 
-1. **Video - 5 MUST know Rust database libraries** <br>
+1. [ ] **Video - 5 MUST know Rust database libraries** <br>
    [https://www.youtube.com/watch?v=FW4oUXHly8c](https://www.youtube.com/watch?v=FW4oUXHly8c)
 
-2. **Video - Rust & SQL Databases - With Diesel** <br>
+2. [ ] **Video - Rust & SQL Databases - With Diesel** <br>
    [https://www.youtube.com/watch?v=tRC4EIKhMzw](https://www.youtube.com/watch?v=tRC4EIKhMzw)
 
-3. **11 database drivers and ORMs for Rust that are ready for production** <br>
+3. [ ] **11 database drivers and ORMs for Rust that are ready for production** <br>
    [https://blog.logrocket.com/11-database-drivers-and-orms-for-rust-that-are-ready-for-production/](https://blog.logrocket.com/11-database-drivers-and-orms-for-rust-that-are-ready-for-production/)
 
 
 ## Rapid Prototyping in Rust - Write fast like Python - Run fast like C
 
-1. **Rapid Prototyping in Rust - Write fast like Python - Run fast like C** <br>
+1. [ ] **Rapid Prototyping in Rust - Write fast like Python - Run fast like C** <br>
    [https://www.youtube.com/watch?v=X7Dsu0oRk0U](https://www.youtube.com/watch?v=X7Dsu0oRk0U)
 
 
 ## Python extended with Rust and running a Python interpreter inside Rust  
 
-1. **PyO3 - GitHub** <br>
+1. [ ] **PyO3 - GitHub** <br>
    [https://github.com/PyO3/pyo3](https://github.com/PyO3/pyo3)
 
-2. **The PyO3 user guide - Book** <br>
+2. [ ] **The PyO3 user guide - Book** <br>
    [https://pyo3.rs/master/](https://pyo3.rs/master/)
 
-3. **Python Extensions in Pure Rust with PyO3** <br>
+3. [ ] **Python Extensions in Pure Rust with PyO3** <br>
    [https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/](https://depth-first.com/articles/2020/08/10/python-extensions-in-pure-rust-with-pyo3/)   
 
-4. **Python Extensions in Pure Rust with Rust-CPython** <br>
+4. [ ] **Python Extensions in Pure Rust with Rust-CPython** <br>
    [https://depth-first.com/articles/2022/03/09/python-extensions-in-pure-rust-with-rust-cpython/](https://depth-first.com/articles/2022/03/09/python-extensions-in-pure-rust-with-rust-cpython/)
 
-5. **RustPython - A Python-3 interpreter written in Rust** <br>
+5. [ ] **RustPython - A Python-3 interpreter written in Rust** <br>
    [https://github.com/RustPython/RustPython](https://github.com/RustPython/RustPython)
 
 
