@@ -1,5 +1,7 @@
 # Bryan Learns Rust
 
+A checklist and workspace for me to learn Rust.
+
 ## Learn Rust, a checklist
 
 An inspired by, but heavily edited down list:
